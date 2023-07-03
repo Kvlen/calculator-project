@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Calculator</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="practice.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/11.8.2/math.js" integrity="sha512-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="calculator">
+        <input type="text" id="inputBox" readonly>
+        <div class="buttons">
+            <div class="row1">
+                <button class="operator">÷</button>
+                <button class="operator">x</button>
+                <button class="operator">-</button>
+                <button class="operator">+</button>
+            </div>
+            <div class="group-position">
+                <div class="group-row">
+                    <div class="row2">
+                        <button class="number">7</button>
+                        <button class="number">8</button>
+                        <button class="number">9</button>
+                    </div>
+                    <div class="row3">
+                        <button class="number">4</button>
+                        <button class="number">5</button>
+                        <button class="number">6</button>
+                    </div>
+                    <div class="row4">
+                        <button class="number">1</button>
+                        <button class="number">2</button>
+                        <button class="number">3</button>
+                    </div>
+                    <div class="row5">
+                        <button class="number">0</button>
+                        <button class="number">.</button>
+                        <button id="clearButton">C</button>
+                    </div>
+                </div>    
+                <div class="row6">
+                    <button id="equalsButton">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
